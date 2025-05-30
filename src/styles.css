@@ -1,0 +1,35 @@
+.filter-buttons button{
+    border: 1.5px solid black;
+   padding-inline: 20px;
+   border-radius: 2rem;
+   padding-inline: 14px;
+   padding-block: 8px; 
+   cursor: pointer;
+}
+.filter-buttons{
+   
+}
+.filter-buttons button:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+
+/* Hide ScroolBar  */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* ==============RestaurantMenu =================== */
+#menu_image{
+  min-width: 150px;
+  height: 100px;
+  background-size: contain;
+  background-position: center;
+  border-radius: 12px;
+}
